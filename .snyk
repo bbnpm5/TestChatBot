@@ -1,5 +1,5 @@
 # Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
-version: v1.12.0
+version: v1.14.1
 ignore: {}
 # patches apply the minimum changes required to fix a vulnerability
 patch:
@@ -8,3 +8,8 @@ patch:
         patched: '2018-07-21T06:33:35.299Z'
     - botbuilder > jsonwebtoken > joi > topo > hoek:
         patched: '2018-07-21T06:33:35.299Z'
+  SNYK-JS-LODASH-567746:
+    - restify > lodash:
+        patched: '2020-04-30T22:32:09.196Z'
+    - restify > restify-errors > lodash:
+        patched: '2020-04-30T22:32:09.196Z'
