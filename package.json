@@ -11,7 +11,7 @@
   "author": "Bibin",
   "license": "ISC",
   "dependencies": {
-    "autolinker": "^1.6.0",
+    "autolinker": "^3.16.1",
     "botbuilder": "^3.13.1",
     "openurl": "^1.1.1",
     "restify": "^6.3.4",
